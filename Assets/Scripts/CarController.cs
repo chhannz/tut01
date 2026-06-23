@@ -5,6 +5,7 @@ using Vector2 = UnityEngine.Vector2;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class CarController : MonoBehaviour
 {
     [SerializeField] private CarData carData;
